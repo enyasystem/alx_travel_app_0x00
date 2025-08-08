@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from listings.models import Listing, Booking, Review
+from alx_travel_app.listings.models import Listing, Booking, Review
 from datetime import date, timedelta
 
 class Command(BaseCommand):
